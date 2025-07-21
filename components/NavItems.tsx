@@ -18,7 +18,7 @@ const NavItems = () => {
         <Link
           className={cn(
             pathname === href &&
-              "text-indigo-500 font-semibold bg-primary rounded-lg p-1"
+              "text-indigo-500 font-semibold shadow-lg rounded-lg p-1"
           )}
           href={href}
           key={label}
