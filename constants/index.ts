@@ -5,6 +5,8 @@ export const subjects = [
   "history",
   "coding",
   "economics",
+  "psychology",
+  "music",
 ];
 
 export const subjectsColors = {
@@ -14,6 +16,8 @@ export const subjectsColors = {
   coding: "#FFC8E4",
   history: "#FFECC8",
   economics: "#C8FFDF",
+  psychology: "#FFB3BA",
+  music: "#D4F4DD",
 };
 
 export const voices = {
@@ -69,5 +73,21 @@ export const recentSessions = [
     topic: "The Basics of Supply & Demand",
     duration: 10,
     color: "#C8FFDF",
+  },
+  {
+    id: "7",
+    subject: "psychology",
+    name: "Psyche the Mind Reader",
+    topic: "Understanding Human Behavior",
+    duration: 25,
+    color: "#FFB3BA",
+  },
+  {
+    id: "8",
+    subject: "music",
+    name: "Melody the Harmony Helper",
+    topic: "Music Theory Fundamentals",
+    duration: 35,
+    color: "#D4F4DD",
   },
 ];
